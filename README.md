@@ -42,17 +42,7 @@ Agri-Vision is an intelligent agriculture-based system designed to assist farmer
 
 ```
 Agri-Vision/
-│── crop_recommendation/
-│   ├── model.pkl
-│   ├── app.py
-│
-│── disease_classification/
-│   ├── model.keras
-│   ├── train.py
-│   ├── predict.py
-│
-│── static/
-│── templates/
+
 |── notebooks/
 │
 │── requirements.txt
