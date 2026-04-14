@@ -32,7 +32,7 @@ Agri-Vision is an intelligent agriculture-based system designed to assist farmer
 
 * **Programming Language:** Python 🐍
 * **Libraries:** NumPy, Pandas, Scikit-learn, TensorFlow/Keras
-* **Frontend (optional):** HTML, CSS
+* **Frontend:** HTML, CSS
 * **Backend:** Flask / FastAPI
 * **Tools:** Google Colab, Jupyter Notebook
 
