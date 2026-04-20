@@ -1,0 +1,64 @@
+/* Full background */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+
+    /* ✅ Correct path */
+    background: url('/static/croprecommendation.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+    /* Center content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form box styling */
+.box {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 25px;
+    border-radius: 12px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+/* Heading */
+h1 {
+    color: #2E7D32;
+    margin-bottom: 20px;
+}
+
+/* Input fields */
+input {
+    width: 90%;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+/* Button */
+button {
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 95%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #2E7D32;
+}
+
+/* Back link */
+a {
+    display: block;
+    margin-top: 15px;
+    color: black;
+    text-decoration: none;
+}

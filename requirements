@@ -1,0 +1,40 @@
+# Core Libraries
+
+numpy
+pandas
+scikit-learn
+
+# Visualization (optional but useful)
+
+matplotlib
+seaborn
+
+# Deep Learning
+
+tensorflow
+
+# Image Processing
+
+opencv-python
+Pillow
+
+# Model Saving/Loading
+
+joblib
+
+# Backend (choose one)
+
+flask
+
+# fastapi
+
+# uvicorn
+
+# Utilities
+
+tqdm
+
+# Optional (for better performance / extensions)
+
+xgboost
+

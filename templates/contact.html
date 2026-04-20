@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact AgriVision</title>
+
+  <!-- ✅ Correct Flask CSS path -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='contactstyle.css') }}">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+  <div class="logo">AGRI-VISION</div>
+
+  <ul class="nav-links">
+    <li><a href="{{ url_for('home') }}">Home</a></li>
+    <li><a href="{{ url_for('about') }}">About</a></li>
+    <li><a href="{{ url_for('contact') }}" class="active">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Contact Content -->
+<div class="contact-container">
+  <h1>Contact Us</h1>
+
+  <p><strong>Email:</strong></p>
+  <ul>
+    <li>✉️ <a href="mailto:sravanilasa@gmail.com">sravanilasa@gmail.com</a></li>
+    <li>✉️ <a href="mailto:ramyasrithajami18@gmail.com">ramyasrithajami18@gmail.com</a></li>
+  </ul>
+
+  <p><strong>Phone:</strong></p>
+  <ul>
+    <li>📞 <a href="tel:6300223078">6300223078</a></li>
+    <li>📞 <a href="tel:9490894435">9490894435</a></li>
+  </ul>
+</div>
+
+</body>
+</html>

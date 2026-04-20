@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AgriVision Dashboard</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar">
+
+    <!-- Left: Logo -->
+    <div class="nav-left">
+        <a href="{{ url_for('home') }}" class="nav-link brand-logo">
+            AGRIVISION 🌱
+        </a>
+    </div>
+
+    <!-- Right: About & Contact -->
+    <div class="nav-right">
+        <a href="{{ url_for('about') }}" class="nav-link plain-link">About</a>
+        <a href="{{ url_for('contact') }}" class="nav-link plain-link">Contact</a>
+    </div>
+
+</nav>
+
+<!-- ===== MAIN CONTENT ===== -->
+<div class="overlay">
+
+    <h1 class="welcome-text">Welcome User 🌱</h1>
+    <p class="highlight">Select an option</p>
+
+    <div class="container">
+
+        <!-- Crop Recommendation -->
+        <div class="card">
+            <h2>🌾 Crop Recommendation</h2>
+            <a href="{{ url_for('crop') }}" class="btn">Go</a>
+        </div>
+
+        <!-- Disease Detection -->
+        <div class="card">
+            <h2>🌿 Leaf Disease Detection</h2>
+            <a href="{{ url_for('disease') }}" class="btn">Go</a>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>

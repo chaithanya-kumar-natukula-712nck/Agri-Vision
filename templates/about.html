@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About AgriVision</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='aboutstyle.css') }}">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+  <div class="logo">AGRI-VISION</div>
+
+  <ul class="nav-links">
+    <li><a href="{{ url_for('home') }}">Home</a></li>
+    <li><a href="{{ url_for('about') }}" class="active">About</a></li>
+    <li><a href="{{ url_for('contact') }}">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Content -->
+<div class="about-content">
+  <h1>About AgriVision 🌱</h1>
+
+  <p>
+    AgriVision is a smart agricultural support system designed to assist farmers in making 
+    data-driven decisions for better crop yield and disease management.
+  </p>
+
+  <p>
+    It analyzes important factors like soil nutrients (NPK), pH level, temperature, humidity, 
+    and rainfall to recommend the most suitable crops.
+  </p>
+
+  <p>
+    The system also includes a leaf disease detection feature using image processing, 
+    helping farmers identify plant diseases at an early stage and reduce crop loss.
+  </p>
+
+  <p>
+    AgriVision is simple, user-friendly, and accessible on both computers and mobile devices, 
+    making it a helpful tool for modern agriculture.
+  </p>
+</div>
+
+</body>
+</html>

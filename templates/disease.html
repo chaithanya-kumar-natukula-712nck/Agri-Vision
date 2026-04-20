@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Disease Detection</title>
+    <link rel="stylesheet" href="/static/diseasestyle.css">
+</head>
+<body>
+
+    <div>
+        <h1 class="main-heading">Leaf Disease Detection</h1>
+
+        <div class="box">
+            <form action="/detect_disease" method="post" enctype="multipart/form-data">
+                <div class="subtitle">
+                    Upload a clear image of a diseased plant leaf for accurate detection
+                </div>
+
+                <input type="file" name="leaf_image" required><br>
+
+		<p1>Detection:- tomato_tungro
+            </form>
+            <a href="{{ url_for('home') }}">⬅ Back to Home</a>
+        </div>
+    </div>
+
+</body>
+</html>
